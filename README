@@ -7,3 +7,7 @@ http://files.b9.com/cl-base64/cl-base64-latest.tar.gz
 http://www.bobturf.org/software/cl-qprint
 http://weitz.de/cl-ppcre/
 
+NOTE: This is a fork of https://github.com/hanshuebner/cl-mime
+it includes following patches:
+
+* Fixed parsing of header parameters surrounded by " (https://github.com/hanshuebner/cl-mime/pull/3).
